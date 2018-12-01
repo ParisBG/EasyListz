@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TopLevelActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/coffee_logo"
+            android:contentDescription="@string/starbuzz_logo"/>
+    <TextView
+        android:id="@+id/textView01"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PARIS' COFFEEHOUSE"
+        android:textSize="20sp"/>
+    </LinearLayout>
+
+    <ListView android:id="@+id/options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/options" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/favorites"/>
+
+    <ListView
+        android:id="@+id/list_favorites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/colorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickColors"
+        android:text="COLORS!"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/fakeButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST BUTTON2"/>
+
+    <Button
+        android:id="@+id/fakeButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST BUTTON 3"/>
+</LinearLayout>
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MySquad Layouts</string>
+    <string name="favorite">Favorite</string>
+    <string name="favorites">Your Favorite Drinks:</string>
+
+    <string name="starbuzz_logo">This is the apps logo</string>
+    <string name="default22">default</string>
+    <string-array name="options">
+        <item>Drinks</item>
+        <item>Food</item>
+        <item>Stores</item>
+
+    </string-array>
+    <string-array name="more_options">
+        <item>Latte</item>
+        <item>Cappuccino</item>
+        <item>Frappuccino</item>
+    </string-array>
+</resources>

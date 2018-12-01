@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout  android:id="@+id/content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="@drawable/soundpic">
+
+        <TextView android:id="@+id/textViewToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:padding="10dp"
+            android:gravity="top|center"
+            android:text="YOUR DEVICE'S SOUND IS ON..."/>
+
+    <ImageView android:id="@+id/on_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/sound_on"/>
+</FrameLayout>
